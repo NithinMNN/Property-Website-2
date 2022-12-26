@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.full{
+    overflow: auto;
+}
+
+.tleft{
+    background-color:#efe6dd;
+    height: 85px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 40%;
+    
+}
+
+.tleft ul li{
+    display: inline-block;
+    margin: 22px 16px;
+}
+
+.tleft ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+.tleft ul li a:hover{
+    color:orange;
+}
+
+.tcenter{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 85px;
+}
+
+.tcenter a{
+    text-decoration: none;
+    color: orange;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tcenter h1{
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.tright{
+    background-color:#efe6dd;
+    box-sizing: border-box;
+    height: 85px;
+    display: inline-block;
+    width: 40%;
+}
+
+.tright ul li{
+    display: inline-block;
+    margin: 22px 16px;
+}
+
+.tright ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 25px;
+}
+
+.tright ul li a:hover{
+    color:orange;
+}
+
+.main{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 400px;
+}
+
+.b1{
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    background-image: url("img21.jpg");
+    background-repeat: no-repeat;
+    color: orange;
+    text-align: center;
+    background-size: contain;
+    font-size: 50px;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.search{
+    height: 60px;
+    font-size: 20px;
+    margin-top: 50px;
+    border: 1px solid black;
+    background-image: url("/imgsearch.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40px;
+
+}
+
+.main2{
+    background-color: rgb(243, 186, 81);
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.footer{
+    background-color: #efe6dd;
+    height: 30px;
+    text-align: center;
+}
+
